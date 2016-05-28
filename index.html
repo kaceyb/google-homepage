@@ -1,0 +1,94 @@
+<html>
+<head>
+    <title>This is a simulated Google Homepage</title>
+    <link rel="stylesheet" type="text/css" href="./css/my.css">
+    <style type="text/css">
+      .img-center {
+        display: block;
+        margin: auto;
+      }
+      .center {
+        display: block;
+        margin: auto;
+        width: 60%;
+        padding: 10px;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      li {
+        float: right;
+      }
+      li a {
+        display: block;
+        text-align: center;
+        padding: 10px 10px;
+        text-decoration: none;
+        color: #000;
+      }
+      li a:hover {
+        text-decoration: underline;
+      }
+      #gb_signin {
+        border: 1px solid #4285f4;
+        font-weight: bold;
+        outline: none;
+        background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+        display: block;
+        border-radius: 2px;
+      }
+      #gb_signin a {
+        color: #fff;
+      }
+      #footer {
+        bottom: 0;
+        height: 35px;
+        position: absolute;
+        width: 100%;
+        background: #f2f2f2;
+      }
+      #footer a {
+        color: #666;
+      }
+      .about {
+        display: block;
+        text-align: center;
+        padding: 10px 10px;
+        text-decoration: none;
+        float: left;
+      }
+    </style>
+</head>
+<body>
+  <ul>
+    <li><a id="gb_signin" style="color: #fff" href="#sign_in">Sign in</a></li>
+    <li><a href="#images">Images</a></li>    
+    <li><a href="#google_apps"><img src="./images/google_apps.png"></a></li>
+    <li><a class="active" href="#gmail">Gmail</a></li>    
+  </ul>
+
+<div>
+  <img class="img-center" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+</div>
+<div>
+  <form class="center">
+    <input class="center" type="text">
+  </form>
+
+</div>
+<div style="height: 50px">
+<div id="footer">
+  <a class="about" href="#about">About</a>
+  <ul>
+    <li><a href="#settings">Settings</a></li>
+    <li><a href="#terms">Terms</a></li>
+    <li><a href="#privacy">Privacy</a></li>
+  </ul>
+</div>
+</div>
+</body>
+
+</html>
